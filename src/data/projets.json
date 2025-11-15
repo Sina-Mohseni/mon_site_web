@@ -1,0 +1,378 @@
+[
+  {
+    "id": "proj-001",
+    "titre": "La Chasse au Trésor des Couleurs",
+    "description": "Une activité ludique et coopérative pour découvrir les couleurs dans l'environnement",
+    "niveaux": ["PS", "MS", "GS"],
+    "duree": 30,
+    "lieu": "interieur-exterieur",
+    "materiel": [
+      "Feuilles de couleur (rouge, bleu, jaune, vert)",
+      "Paniers ou sacs",
+      "Appareil photo (optionnel)"
+    ],
+    "badges": ["cooperatif", "calme", "peu-materiel"],
+    "categorie": "decouverte",
+    "coupDeCoeur": true,
+    "specialPluie": false,
+    "objectifs": {
+      "pedagogiques": [
+        "Reconnaître et nommer les couleurs primaires",
+        "Développer l'observation",
+        "Favoriser la coopération"
+      ],
+      "competences": [
+        "Motricité fine (ramasser des objets)",
+        "Langage (nommer les couleurs)",
+        "Socialisation (travail en équipe)"
+      ]
+    },
+    "psaadrafra": {
+      "presentation": "Les enfants vont partir à la recherche d'objets de différentes couleurs dans l'espace de jeu. Chaque équipe a une mission : remplir son panier avec des objets de la couleur attribuée.",
+      "sujetActivite": "Explorer l'environnement pour trouver des objets colorés et développer le sens de l'observation.",
+      "age": {
+        "PS": "Recherche libre avec 2 couleurs maximum, accompagnement fort de l'animateur",
+        "MS": "3-4 couleurs, introduction de petites règles (ne pas prendre 2 fois le même objet)",
+        "GS": "Toutes les couleurs, possibilité d'ajouter des nuances (clair/foncé)"
+      },
+      "appropriation": "Montrer des exemples de chaque couleur. Laisser les enfants toucher et observer les feuilles de couleur. Demander : 'Qui peut me montrer quelque chose de rouge dans la salle ?'",
+      "deroulement": [
+        {
+          "etape": "Introduction",
+          "duree": 5,
+          "description": "Présenter les couleurs et montrer les paniers. Expliquer la mission."
+        },
+        {
+          "etape": "Recherche",
+          "duree": 15,
+          "description": "Les enfants cherchent des objets de leur couleur. L'animateur accompagne et valide les trouvailles."
+        },
+        {
+          "etape": "Mise en commun",
+          "duree": 10,
+          "description": "Chaque groupe présente ses trouvailles. On compte ensemble combien d'objets de chaque couleur."
+        }
+      ],
+      "rangement": "Remettre tous les objets à leur place. Les feuilles de couleur retournent dans la boîte à activités.",
+      "analyse": "Observer quels enfants ont facilement identifié les couleurs. Noter les difficultés éventuelles pour adapter la prochaine séance.",
+      "feedback": "Féliciter les enfants pour leur recherche. Demander quelle couleur était la plus facile/difficile à trouver.",
+      "reactivation": "Proposer une variante la semaine suivante : chercher des objets d'une forme précise au lieu d'une couleur.",
+      "amelioration": "Possibilité d'ajouter un appareil photo pour immortaliser les trouvailles et créer un livre des couleurs."
+    },
+    "variantes": [
+      {
+        "titre": "Version pluvieuse",
+        "description": "Adapter en intérieur avec des zones délimitées (coin lecture, coin jeux, etc.)"
+      },
+      {
+        "titre": "Version numérique",
+        "description": "Utiliser une tablette pour photographier les couleurs au lieu de ramasser des objets"
+      }
+    ],
+    "astucesAnimateur": [
+      "Prévoir des objets 'joker' cachés si les enfants ne trouvent pas assez d'éléments d'une couleur",
+      "Adapter le nombre de couleurs selon l'âge et la fatigue du groupe",
+      "Valoriser systématiquement chaque trouvaille pour maintenir la motivation"
+    ],
+    "demo": {
+      "type": "narrative",
+      "histoire": {
+        "introduction": "Aujourd'hui, Léo le petit renard a perdu ses crayons de couleur dans la forêt ! Peux-tu l'aider à les retrouver ?",
+        "etapes": [
+          {
+            "id": "etape1",
+            "texte": "Léo cherche son crayon ROUGE. Regarde autour de toi, vois-tu quelque chose de rouge ?",
+            "choix": [
+              {
+                "texte": "Une pomme rouge !",
+                "reponse": "Bravo ! C'est bien rouge comme le crayon de Léo. Il est tout content !",
+                "suivant": "etape2"
+              },
+              {
+                "texte": "Un nuage blanc",
+                "reponse": "Hmm, le nuage est blanc, pas rouge. Cherche encore !",
+                "suivant": "etape1"
+              }
+            ]
+          },
+          {
+            "id": "etape2",
+            "texte": "Super ! Maintenant Léo cherche son crayon BLEU. À toi de jouer !",
+            "choix": [
+              {
+                "texte": "Le ciel bleu !",
+                "reponse": "Excellent ! Le ciel est bien bleu. Léo a retrouvé son deuxième crayon !",
+                "suivant": "fin"
+              },
+              {
+                "texte": "L'herbe verte",
+                "reponse": "Presque ! L'herbe est verte, pas bleue. Regarde encore !",
+                "suivant": "etape2"
+              }
+            ]
+          }
+        ],
+        "conclusion": "Bravo ! Tu as aidé Léo à retrouver ses crayons. Maintenant il peut dessiner un magnifique arc-en-ciel !"
+      }
+    }
+  },
+  {
+    "id": "proj-002",
+    "titre": "Le Relais des Émotions",
+    "description": "Un jeu sportif et éducatif pour apprendre à reconnaître et exprimer les émotions",
+    "niveaux": ["CP", "CE1", "CE2"],
+    "duree": 45,
+    "lieu": "exterieur",
+    "materiel": [
+      "Plots ou cônes (6-8)",
+      "Cartes émotions (joie, tristesse, colère, peur, surprise)",
+      "Chronomètre",
+      "Sifflet"
+    ],
+    "badges": ["defouloir", "cooperatif", "educatif"],
+    "categorie": "sport",
+    "coupDeCoeur": false,
+    "specialPluie": false,
+    "objectifs": {
+      "pedagogiques": [
+        "Identifier et nommer les émotions de base",
+        "Exprimer corporellement une émotion",
+        "Développer la motricité globale et l'esprit d'équipe"
+      ],
+      "competences": [
+        "Expression corporelle",
+        "Intelligence émotionnelle",
+        "Coordination motrice",
+        "Coopération"
+      ]
+    },
+    "psaadrafra": {
+      "presentation": "Un relais sportif où chaque équipe doit non seulement courir, mais aussi mimer une émotion tirée au hasard. Les coéquipiers doivent deviner l'émotion pour que le relais continue.",
+      "sujetActivite": "Combiner activité physique et intelligence émotionnelle à travers un jeu de relais dynamique.",
+      "age": {
+        "CP": "3-4 émotions de base, mimes simples et évidents",
+        "CE1": "5 émotions, possibilité d'ajouter des nuances (un peu triste / très triste)",
+        "CE2": "6-7 émotions, introduction d'émotions plus complexes (fierté, jalousie)"
+      },
+      "appropriation": "Avant le jeu, faire une ronde d'échauffement où chacun mime une émotion. Discuter : 'Comment on reconnaît la joie sur un visage ? Et la tristesse ?'",
+      "deroulement": [
+        {
+          "etape": "Échauffement émotionnel",
+          "duree": 10,
+          "description": "Chaque enfant tire une carte émotion et la mime devant le groupe. Discussion collective."
+        },
+        {
+          "etape": "Explication des règles",
+          "duree": 5,
+          "description": "Présenter le parcours de relais et expliquer que chaque coureur doit mimer une émotion avant de passer le relais."
+        },
+        {
+          "etape": "Jeu du relais",
+          "duree": 25,
+          "description": "Les équipes s'affrontent. Un enfant court, tire une carte émotion, la mime. Son équipe devine. Si c'est bon, le suivant part."
+        },
+        {
+          "etape": "Retour au calme",
+          "duree": 5,
+          "description": "S'asseoir en cercle. Chacun dit quelle émotion il a préféré mimer et pourquoi."
+        }
+      ],
+      "rangement": "Ramasser les plots et les cartes. Les ranger dans le sac de matériel sport.",
+      "analyse": "Observer quels enfants ont des difficultés à identifier ou exprimer certaines émotions. Adapter les futures activités sur les émotions.",
+      "feedback": "Féliciter les enfants pour leurs mimes créatifs. Valoriser l'écoute et l'entraide entre coéquipiers.",
+      "reactivation": "Proposer un atelier arts plastiques : dessiner les différentes émotions rencontrées dans le jeu.",
+      "amelioration": "Créer un 'mur des émotions' où les enfants peuvent afficher leurs dessins ou photos des mimes."
+    },
+    "variantes": [
+      {
+        "titre": "Version intérieur",
+        "description": "Adapter en salle de motricité avec un parcours plus court et des émotions à mimer assis"
+      },
+      {
+        "titre": "Version calme",
+        "description": "Remplacer la course par une marche lente en 'statue' de l'émotion"
+      }
+    ],
+    "astucesAnimateur": [
+      "Avoir des cartes de secours avec des émotions plus simples pour les enfants en difficulté",
+      "Encourager les mimes créatifs sans se moquer",
+      "Faire des équipes équilibrées en âge et en aisance corporelle",
+      "Prévoir une bouteille d'eau pour chaque enfant"
+    ],
+    "demo": {
+      "type": "narrative",
+      "histoire": {
+        "introduction": "Bienvenue dans l'aventure du Relais des Émotions ! Tu vas aider l'équipe des Tigres à gagner le relais.",
+        "etapes": [
+          {
+            "id": "etape1",
+            "texte": "C'est ton tour de courir ! Tu arrives au plot et tu tires une carte : JOIE. Comment mimes-tu la joie ?",
+            "choix": [
+              {
+                "texte": "Je saute avec un grand sourire et les bras en l'air !",
+                "reponse": "Excellent ! Tes coéquipiers ont tout de suite deviné. Tu passes le relais !",
+                "suivant": "etape2"
+              },
+              {
+                "texte": "Je fais une grimace triste",
+                "reponse": "Hmm, tes coéquipiers sont confus. La grimace triste, c'est plutôt pour la tristesse. Essaie encore !",
+                "suivant": "etape1"
+              }
+            ]
+          },
+          {
+            "id": "etape2",
+            "texte": "Ton coéquipier a bien couru ! C'est de nouveau ton tour. Tu tires : PEUR. Que fais-tu ?",
+            "choix": [
+              {
+                "texte": "Je recule en tremblant et je cache mes yeux",
+                "reponse": "Parfait ! Tout le monde a reconnu la peur. L'équipe des Tigres gagne le relais !",
+                "suivant": "fin"
+              },
+              {
+                "texte": "Je ris très fort",
+                "reponse": "Tes coéquipiers hésitent... Rire fort, c'est plutôt de la joie, non ? Essaie encore !",
+                "suivant": "etape2"
+              }
+            ]
+          }
+        ],
+        "conclusion": "Bravo ! Grâce à tes mimes, l'équipe des Tigres a gagné ! Tu es un champion des émotions !"
+      }
+    }
+  },
+  {
+    "id": "proj-003",
+    "titre": "Construction libre : La Ville du Futur",
+    "description": "Projet créatif de construction en équipe avec matériaux de récupération",
+    "niveaux": ["CE2", "CM1", "CM2"],
+    "duree": 90,
+    "lieu": "interieur",
+    "materiel": [
+      "Cartons de différentes tailles",
+      "Rouleaux de papier toilette",
+      "Bouteilles plastique",
+      "Ciseaux et scotch",
+      "Feutres et peinture",
+      "Papier coloré"
+    ],
+    "badges": ["creatif", "cooperatif", "calme", "recup"],
+    "categorie": "arts-plastiques",
+    "coupDeCoeur": true,
+    "specialPluie": true,
+    "objectifs": {
+      "pedagogiques": [
+        "Développer la créativité et l'imagination",
+        "Travailler la coopération et la répartition des tâches",
+        "Sensibiliser au recyclage et à l'écologie",
+        "Planifier et organiser un projet créatif"
+      ],
+      "competences": [
+        "Motricité fine (découpage, assemblage)",
+        "Planification et organisation",
+        "Travail en équipe",
+        "Expression artistique"
+      ]
+    },
+    "psaadrafra": {
+      "presentation": "Les enfants travaillent en groupes pour imaginer et construire une ville du futur écologique avec des matériaux de récupération. Chaque groupe crée un quartier différent.",
+      "sujetActivite": "Créer une maquette collaborative d'une ville futuriste en utilisant l'imagination et des matériaux recyclés.",
+      "age": {
+        "CE2": "Construction guidée avec des modèles simples, quartiers basiques (maisons, parc, école)",
+        "CM1": "Plus d'autonomie, introduction de bâtiments spéciaux (usine solaire, ferme verticale)",
+        "CM2": "Total autonomie créative, réflexion sur l'urbanisme durable, présentation orale du projet"
+      },
+      "appropriation": "Discussion collective : 'C'est quoi une ville ? Qu'est-ce qu'on trouve dans une ville ? Comment imaginez-vous la ville du futur ?' Montrer des images de villes futuristes pour inspirer.",
+      "deroulement": [
+        {
+          "etape": "Brainstorming",
+          "duree": 15,
+          "description": "En groupe, les enfants imaginent leur quartier : quel type de bâtiments, quelles fonctions, quelles particularités écologiques ?"
+        },
+        {
+          "etape": "Planification",
+          "duree": 10,
+          "description": "Dessiner un plan simple du quartier. Répartir les tâches (qui fait quoi)."
+        },
+        {
+          "etape": "Construction",
+          "duree": 50,
+          "description": "Chaque groupe construit son quartier. L'animateur circule pour aider et encourager."
+        },
+        {
+          "etape": "Assemblage final",
+          "duree": 10,
+          "description": "Rassembler tous les quartiers pour former LA ville du futur complète."
+        },
+        {
+          "etape": "Présentation",
+          "duree": 15,
+          "description": "Chaque groupe présente son quartier et explique ses choix créatifs et écologiques."
+        }
+      ],
+      "rangement": "Décider avec les enfants si on garde la ville (exposition) ou si on décompose. Trier les matériaux réutilisables. Nettoyer l'espace.",
+      "analyse": "Observer la dynamique de groupe, les rôles pris par chacun (leader, exécutant, créatif). Noter les idées intéressantes pour de futurs projets.",
+      "feedback": "Valoriser la créativité de chaque groupe. Demander : 'Qu'est-ce qui vous a plu dans ce projet ? Qu'est-ce qui était difficile ?'",
+      "reactivation": "Prendre des photos de la ville et créer un 'journal de bord' de la construction. Proposer une activité d'écriture : 'Une journée dans la ville du futur'.",
+      "amelioration": "Intégrer une dimension numérique : filmer la présentation, créer un QR code pour chaque quartier avec des explications audio."
+    },
+    "variantes": [
+      {
+        "titre": "Version courte",
+        "description": "Limiter à 45 minutes en ne faisant qu'un seul bâtiment par groupe au lieu d'un quartier complet"
+      },
+      {
+        "titre": "Version nature",
+        "description": "Construire une 'forêt du futur' avec des éléments naturels (branches, feuilles, pommes de pin)"
+      }
+    ],
+    "astucesAnimateur": [
+      "Préparer le matériel à l'avance et le répartir équitablement entre les groupes",
+      "Avoir des images inspirantes sous la main pour les groupes en panne d'idées",
+      "Faire des groupes de 4-5 max pour que chacun puisse participer activement",
+      "Prévoir un espace suffisamment grand pour que les groupes ne se gênent pas",
+      "Prendre beaucoup de photos pour garder une trace du projet"
+    ],
+    "demo": {
+      "type": "narrative",
+      "histoire": {
+        "introduction": "Bienvenue dans le studio de création ! Tu es l'architecte en chef de la Ville du Futur. Es-tu prêt à construire ?",
+        "etapes": [
+          {
+            "id": "etape1",
+            "texte": "Ton équipe doit construire le quartier écologique. Quelle est ta première idée ?",
+            "choix": [
+              {
+                "texte": "Construire une ferme verticale avec des rouleaux de carton",
+                "reponse": "Génial ! La ferme verticale permettra de cultiver des légumes en ville. C'est très écologique !",
+                "suivant": "etape2"
+              },
+              {
+                "texte": "Faire une usine à charbon avec des bouteilles",
+                "reponse": "Hmm, le charbon pollue beaucoup. Pour la ville du FUTUR, il vaut mieux penser écologique !",
+                "suivant": "etape1"
+              }
+            ]
+          },
+          {
+            "id": "etape2",
+            "texte": "Super ! Maintenant, comment vas-tu alimenter la ville en énergie propre ?",
+            "choix": [
+              {
+                "texte": "Installer des panneaux solaires sur tous les toits (avec du papier doré)",
+                "reponse": "Excellent choix ! L'énergie solaire est renouvelable. Ta ville est vraiment futuriste !",
+                "suivant": "fin"
+              },
+              {
+                "texte": "Ne rien prévoir, l'énergie c'est pas important",
+                "reponse": "Attention ! Sans énergie, ta ville ne pourra pas fonctionner. Pense à une solution écologique !",
+                "suivant": "etape2"
+              }
+            ]
+          }
+        ],
+        "conclusion": "Bravo architecte ! Ta ville du futur est magnifique ET écologique. Les habitants vont adorer y vivre !"
+      }
+    }
+  }
+]

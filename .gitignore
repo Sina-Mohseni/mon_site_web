@@ -1,2 +1,22 @@
-tmp/*
-*.txt
+# Dependencies
+node_modules
+
+# Build
+dist
+
+# Logs
+*.log
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local

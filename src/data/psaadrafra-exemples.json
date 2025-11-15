@@ -1,0 +1,129 @@
+{
+  "definition": {
+    "titre": "La méthode PSAADRAFRA",
+    "description": "PSAADRAFRA est une méthode de conception et d'analyse d'activités pour animateurs. Chaque lettre représente une étape clé dans la construction d'une activité réussie.",
+    "lettres": [
+      {
+        "lettre": "P",
+        "nom": "Présentation",
+        "description": "Description générale de l'activité en quelques phrases",
+        "question": "De quoi s'agit-il ?"
+      },
+      {
+        "lettre": "S",
+        "nom": "Sujet de l'activité",
+        "description": "Objectif principal et thème central",
+        "question": "Pourquoi fait-on cette activité ?"
+      },
+      {
+        "lettre": "A",
+        "nom": "Âge",
+        "description": "Public cible et adaptations selon l'âge",
+        "question": "Pour quel âge et comment adapter ?"
+      },
+      {
+        "lettre": "A",
+        "nom": "Appropriation",
+        "description": "Comment les enfants vont s'approprier l'activité",
+        "question": "Comment les préparer à l'activité ?"
+      },
+      {
+        "lettre": "D",
+        "nom": "Déroulement",
+        "description": "Étapes détaillées avec les durées",
+        "question": "Comment se déroule concrètement l'activité ?"
+      },
+      {
+        "lettre": "R",
+        "nom": "Rangement",
+        "description": "Organisation du rangement du matériel et de l'espace",
+        "question": "Comment ranger efficacement ?"
+      },
+      {
+        "lettre": "A",
+        "nom": "Analyse",
+        "description": "Observation et évaluation pendant et après l'activité",
+        "question": "Qu'est-ce que j'observe ?"
+      },
+      {
+        "lettre": "F",
+        "nom": "Feedback",
+        "description": "Retour des enfants sur l'activité",
+        "question": "Qu'ont pensé les enfants ?"
+      },
+      {
+        "lettre": "R",
+        "nom": "Réactivation",
+        "description": "Prolongement et suite à donner",
+        "question": "Comment prolonger cette activité ?"
+      },
+      {
+        "lettre": "A",
+        "nom": "Amélioration",
+        "description": "Pistes d'amélioration pour la prochaine fois",
+        "question": "Qu'est-ce que je changerais ?"
+      }
+    ]
+  },
+  "exemples": [
+    {
+      "id": "exemple-001",
+      "titre": "Parcours de motricité (Maternelle)",
+      "niveau": "PS-MS-GS",
+      "P": "Un parcours avec différents ateliers de motricité : marcher sur une ligne, sauter, ramper sous un obstacle, lancer dans une cible.",
+      "S": "Développer la motricité globale et la confiance en soi",
+      "A": "PS : parcours très simple, accompagnement individuel. MS : parcours avec 4-5 ateliers. GS : parcours chronométré avec défi personnel.",
+      "A2": "Montrer chaque atelier un par un. Faire passer 2 enfants en démonstration. Encourager : 'Chacun va à son rythme !'",
+      "D": "1) Présentation des ateliers (5min) 2) Démonstration (5min) 3) Parcours libre (20min) 4) Variante avec chrono pour les GS (10min) 5) Retour au calme (5min)",
+      "R": "Chaque enfant range un élément du parcours (un plot, un cerceau...). Transformer le rangement en jeu : 'On range en silence comme des souris'.",
+      "A3": "Observer les enfants en difficulté motrice. Noter les progrès par rapport à la dernière fois.",
+      "F": "Demander : 'Quel atelier avez-vous préféré ? Lequel était le plus difficile ?'",
+      "R2": "Refaire le même parcours la semaine suivante pour mesurer les progrès. Puis varier les ateliers.",
+      "A4": "Prévoir plus de temps par atelier pour les PS. Ajouter un atelier équilibre pour les GS."
+    },
+    {
+      "id": "exemple-002",
+      "titre": "Atelier peinture collective (Élémentaire)",
+      "niveau": "CP-CE1-CE2",
+      "P": "Création d'une grande fresque collective sur le thème de la nature. Chaque enfant peint une section de la fresque.",
+      "S": "Favoriser la coopération artistique et l'expression créative",
+      "A": "CP : peindre des formes simples (arbres, fleurs). CE1 : ajouter des détails (oiseaux, insectes). CE2 : travailler les fonds et les ombrages.",
+      "A2": "Montrer des exemples de fresques. Discuter du thème. Répartir les zones de la fresque entre les enfants.",
+      "D": "1) Brainstorming sur le thème nature (10min) 2) Esquisse collective au crayon (15min) 3) Peinture (40min) 4) Finitions et retouches (15min) 5) Présentation de la fresque (10min)",
+      "R": "Nettoyer les pinceaux par équipe. Laisser sécher la fresque. Ranger le matériel de peinture dans les boîtes.",
+      "A3": "Observer la répartition du travail. Certains enfants monopolisent-ils l'espace ? Y a-t-il de l'entraide ?",
+      "F": "Tour de table : 'Quelle partie de la fresque préférez-vous et pourquoi ?'",
+      "R2": "Exposer la fresque dans le centre. Prendre en photo et créer un livre numérique du projet.",
+      "A4": "Prévoir plus de peinture verte (manque). Délimiter plus clairement les zones de chacun pour éviter les conflits."
+    },
+    {
+      "id": "exemple-003",
+      "titre": "Grand jeu : Bataille de châteaux (Multi-âges)",
+      "niveau": "GS-CP-CE1-CE2-CM1-CM2",
+      "P": "Deux équipes construisent un château avec du matériel (cartons, plots) puis s'affrontent dans des mini-défis pour conquérir le château adverse.",
+      "S": "Développer la stratégie d'équipe, la coopération et l'esprit sportif",
+      "A": "GS-CP : rôle de constructeurs et défenseurs. CE : rôle d'attaquants et stratèges. CM : capitaines d'équipe et arbitres des défis.",
+      "A2": "Expliquer le contexte : 'Vous êtes des chevaliers qui doivent protéger votre château'. Répartir les rôles selon l'âge.",
+      "D": "1) Constitution des équipes (5min) 2) Construction des châteaux (20min) 3) Explication des défis (5min) 4) Bataille (défis successifs - 40min) 5) Proclamation du vainqueur (5min)",
+      "R": "Démontage des châteaux par équipe. Ranger le matériel dans le local. L'équipe la plus rapide à ranger gagne 1 point bonus.",
+      "A3": "Observer l'inclusion des plus petits. Les grands les impliquent-ils ? Y a-t-il du fairplay ?",
+      "F": "Debriefing collectif : 'Qu'avez-vous aimé ? Qu'est-ce qui a été difficile dans le travail d'équipe ?'",
+      "R2": "Proposer un atelier d'arts plastiques : dessiner son blason de chevalier.",
+      "A4": "Prévoir des défis plus adaptés aux petits (trop difficiles cette fois). Mieux expliquer les règles des mini-jeux."
+    }
+  ],
+  "modele_vierge": {
+    "titre": "[Nom de l'activité]",
+    "niveau": "[PS/MS/GS/CP/CE1/CE2/CM1/CM2]",
+    "P": "[Description générale de l'activité]",
+    "S": "[Objectif principal et thème]",
+    "A": "[Adaptations selon l'âge]",
+    "A2": "[Comment les enfants s'approprient l'activité]",
+    "D": "[Étapes détaillées avec durées]",
+    "R": "[Organisation du rangement]",
+    "A3": "[Observations et analyse]",
+    "F": "[Retour des enfants]",
+    "R2": "[Prolongements possibles]",
+    "A4": "[Pistes d'amélioration]"
+  }
+}

@@ -1,0 +1,373 @@
+[
+  {
+    "id": "tuto-001",
+    "titre": "Construire un cycle d'activités cohérent",
+    "categorie": "planification",
+    "duree": "15 min",
+    "niveau": "débutant",
+    "objectif": "Apprendre à organiser plusieurs activités autour d'un thème commun sur une semaine",
+    "prerequis": "Aucun",
+    "contenu": {
+      "introduction": "Un cycle d'activités, c'est une série d'animations liées entre elles par un fil rouge (thème, projet commun). C'est beaucoup plus motivant pour les enfants qu'une succession d'activités isolées.",
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Choisir un thème porteur",
+          "description": "Exemples : les pirates, les 4 éléments, le voyage autour du monde, les animaux de la forêt.",
+          "conseil": "Choisis un thème assez large pour permettre des activités variées (sport, créa, grand jeu, etc.)"
+        },
+        {
+          "numero": 2,
+          "titre": "Définir la durée du cycle",
+          "description": "1 semaine = 5 jours d'activités. C'est idéal pour un cycle complet avec un 'grand final' le vendredi.",
+          "conseil": "Si tu n'as que 3 jours, adapte : introduction / développement / conclusion."
+        },
+        {
+          "numero": 3,
+          "titre": "Varier les types d'activités",
+          "description": "Alterne : activité calme (arts plastiques), activité sportive (jeu collectif), activité coopérative (construction), etc.",
+          "conseil": "Un enfant ne peut pas rester concentré sur le même type d'activité toute la semaine."
+        },
+        {
+          "numero": 4,
+          "titre": "Créer une progression",
+          "description": "Jour 1 : découverte du thème. Jours 2-4 : exploration et création. Jour 5 : projet final collectif.",
+          "conseil": "Le dernier jour doit être le point culminant : spectacle, exposition, grand jeu..."
+        },
+        {
+          "numero": 5,
+          "titre": "Impliquer les enfants",
+          "description": "Demande-leur ce qu'ils aimeraient faire autour du thème. Intègre leurs idées dans le cycle.",
+          "conseil": "Un cycle co-construit avec les enfants = motivation maximale !"
+        }
+      ],
+      "exemple": {
+        "theme": "Les Pirates",
+        "cycle": [
+          {
+            "jour": "Lundi",
+            "activite": "Fabrication du drapeau de pirate de l'équipe (arts plastiques)"
+          },
+          {
+            "jour": "Mardi",
+            "activite": "Chasse au trésor dans le parc (grand jeu sportif)"
+          },
+          {
+            "jour": "Mercredi",
+            "activite": "Construction du bateau pirate géant en carton (projet collectif)"
+          },
+          {
+            "jour": "Jeudi",
+            "activite": "Préparation d'une pièce de théâtre 'L'attaque du bateau' (expression)"
+          },
+          {
+            "jour": "Vendredi",
+            "activite": "Spectacle pirate + goûter sur le bateau (apogée du cycle)"
+          }
+        ]
+      },
+      "erreurs_frequentes": [
+        "Choisir un thème trop étroit (exemple : 'les crocodiles' = difficile de varier)",
+        "Faire que des activités calmes ou que des activités sportives",
+        "Ne pas prévoir de temps pour le projet final",
+        "Oublier de rappeler le thème chaque jour (perte du fil rouge)"
+      ]
+    },
+    "ressources": [
+      "Fiche vierge 'Mon cycle d'activités' (à télécharger)",
+      "100 idées de thèmes pour cycles",
+      "Exemples de cycles réussis"
+    ]
+  },
+  {
+    "id": "tuto-002",
+    "titre": "Expliquer un jeu clairement en 3 minutes",
+    "categorie": "animation",
+    "duree": "10 min",
+    "niveau": "débutant",
+    "objectif": "Maîtriser la technique pour expliquer n'importe quel jeu sans perdre l'attention du groupe",
+    "prerequis": "Aucun",
+    "contenu": {
+      "introduction": "La règle d'or : moins tu parles, mieux les enfants comprennent. Une explication trop longue = perte d'attention = jeu raté.",
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Prépare-toi AVANT",
+          "description": "Connais les règles par cœur. Anticipe les questions. Prépare le matériel à l'avance.",
+          "conseil": "Si toi-même tu hésites sur les règles, les enfants le sentent et ne te font pas confiance."
+        },
+        {
+          "numero": 2,
+          "titre": "Capte l'attention",
+          "description": "Signal clair (sifflet, tambourin, signal convenu). Attends le silence complet avant de commencer.",
+          "conseil": "Ne commence JAMAIS à expliquer si tout le monde ne te regarde pas."
+        },
+        {
+          "numero": 3,
+          "titre": "Annonce l'objectif en 1 phrase",
+          "description": "Exemple : 'Le but du jeu, c'est d'attraper le plus de foulards possible sans se faire toucher.'",
+          "conseil": "Les enfants doivent savoir POURQUOI ils jouent avant de connaître le COMMENT."
+        },
+        {
+          "numero": 4,
+          "titre": "Explique les règles essentielles (max 3)",
+          "description": "1. Comment on gagne. 2. Ce qui est interdit. 3. Le signal de fin.",
+          "conseil": "Garde les règles secondaires pour APRÈS le premier round de jeu."
+        },
+        {
+          "numero": 5,
+          "titre": "Fais une DÉMO avec 2-3 volontaires",
+          "description": "Montre concrètement comment on joue pendant 30 secondes. Les enfants visualisent.",
+          "conseil": "La démo vaut mille mots. C'est l'étape la plus importante !"
+        },
+        {
+          "numero": 6,
+          "titre": "Lance le jeu rapidement",
+          "description": "Questions ? Oui, mais max 2 minutes. Ensuite : 'On commence, vous allez comprendre en jouant !'",
+          "conseil": "Le meilleur apprentissage, c'est l'action. Corrige les erreurs pendant le jeu."
+        }
+      ],
+      "exemple": {
+        "jeu": "La Queue du Diable",
+        "mauvaise_explication": "Alors les enfants, vous allez jouer à la queue du diable. C'est un jeu où il faut attraper les foulards des autres, mais attention vous ne devez pas vous faire attraper le vôtre, et puis aussi il y a des zones refuges mais pas plus de 10 secondes, et...",
+        "bonne_explication": "BUT : Attraper un maximum de foulards accrochés dans le dos des autres. RÈGLES : 1) Chacun a un foulard dans le dos. 2) Si on te prend ton foulard, tu continues à jouer. 3) Quand je siffle, on compte les foulards. DÉMO : [Montre avec 2 enfants]. C'est parti !"
+      },
+      "erreurs_frequentes": [
+        "Trop parler, donner trop de détails d'un coup",
+        "Ne pas montrer, juste expliquer avec des mots",
+        "Oublier de dire quand et comment le jeu se termine",
+        "Commencer à jouer avant que tout le monde ait compris"
+      ]
+    },
+    "ressources": [
+      "Vidéo : 5 explications de jeux (bonne vs mauvaise méthode)",
+      "Checklist : Ai-je bien expliqué mon jeu ?",
+      "50 jeux faciles à expliquer"
+    ]
+  },
+  {
+    "id": "tuto-003",
+    "titre": "Gérer un groupe multi-âges (PS à CM2)",
+    "categorie": "gestion-groupe",
+    "duree": "20 min",
+    "niveau": "intermédiaire",
+    "objectif": "Savoir adapter une activité pour qu'elle fonctionne avec des enfants de 3 à 11 ans en même temps",
+    "prerequis": "Avoir déjà animé des groupes d'un seul niveau",
+    "contenu": {
+      "introduction": "Animer un groupe multi-âges est un vrai défi, mais c'est aussi une richesse ! Les grands peuvent aider les petits, et les petits apprennent en observant les grands.",
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Accepte que tout le monde ne fasse pas la même chose",
+          "description": "L'erreur classique : vouloir que TOUS fassent exactement pareil. Résultat : les petits sont largués, les grands s'ennuient.",
+          "conseil": "Une même activité avec 3 niveaux de difficulté, c'est la clé !"
+        },
+        {
+          "numero": 2,
+          "titre": "Utilise la technique des 'défis progressifs'",
+          "description": "Exemple au foot : PS-MS = taper dans le ballon. CP-CE1 = viser une cible. CM = faire des passes.",
+          "conseil": "Chaque enfant choisit son niveau de défi. Pas de jugement, juste du progrès !"
+        },
+        {
+          "numero": 3,
+          "titre": "Crée des binômes grands/petits",
+          "description": "Un grand (CM) est responsable d'aider un petit (PS-MS). Ça responsabilise le grand et rassure le petit.",
+          "conseil": "Change les binômes régulièrement pour éviter les 'clans'."
+        },
+        {
+          "numero": 4,
+          "titre": "Adapte le matériel",
+          "description": "Même jeu, mais : gros ballon pour les petits, ballon normal pour les grands. Feutres épais vs feutres fins.",
+          "conseil": "Le matériel adapté = sentiment de réussite pour tous."
+        },
+        {
+          "numero": 5,
+          "titre": "Valorise les différences",
+          "description": "Félicite un PS pour avoir réussi à tenir un crayon, et un CM2 pour son dessin détaillé. Même activité, critères différents.",
+          "conseil": "Chacun progresse à son rythme. Compare l'enfant à lui-même, pas aux autres."
+        }
+      ],
+      "exemple": {
+        "activite": "Parcours motricité",
+        "adaptation": {
+          "PS-MS": "Marcher sur une ligne au sol, passer sous une table",
+          "GS-CP": "Marcher sur un banc étroit, sauter par-dessus un obstacle",
+          "CE-CM": "Marcher sur une poutre, franchir des obstacles en équilibre"
+        },
+        "organisation": "Tout le monde fait le parcours en même temps, mais chacun à son niveau. L'animateur encourage chacun selon sa réussite."
+      },
+      "erreurs_frequentes": [
+        "Adapter l'activité uniquement aux grands (les petits décrochent)",
+        "Adapter uniquement aux petits (les grands s'ennuient et perturbent)",
+        "Faire deux activités séparées (impossible à gérer seul)",
+        "Ne pas expliquer aux grands qu'ils sont des 'modèles' pour les petits"
+      ]
+    },
+    "ressources": [
+      "20 activités adaptables tous âges",
+      "Tableau de référence : développement par âge",
+      "Vidéo : Gestion d'un groupe multi-âges en situation réelle"
+    ]
+  },
+  {
+    "id": "tuto-004",
+    "titre": "Improviser une activité avec (presque) rien",
+    "categorie": "creativite",
+    "duree": "12 min",
+    "niveau": "intermédiaire",
+    "objectif": "Être capable de créer une activité sympa en 5 minutes avec le matériel du moment",
+    "prerequis": "Connaître quelques jeux de base",
+    "contenu": {
+      "introduction": "Pluie surprise, activité annulée, groupe qui termine avant l'heure... Un bon animateur sait improviser ! Voici la méthode.",
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Évalue la situation en 30 secondes",
+          "description": "Combien de temps ? Quel espace disponible ? Quel est l'état du groupe (calme/agité) ?",
+          "conseil": "Ces 3 infos déterminent le TYPE d'activité : calme/sportif, individuel/collectif."
+        },
+        {
+          "numero": 2,
+          "titre": "Scanne ton environnement",
+          "description": "Qu'est-ce que j'ai sous la main ? Feuilles, stylos, ballons, chaises, espace vide ?",
+          "conseil": "TOUT peut devenir du matériel : des chaussures, des vestes, des ombres..."
+        },
+        {
+          "numero": 3,
+          "titre": "Pioche dans ta 'boîte à outils mentale'",
+          "description": "Tu dois avoir en tête 10-15 jeux 'sans matériel' qui fonctionnent toujours.",
+          "conseil": "Exemples : Jacques a dit, chef d'orchestre, histoire à inventer, mime, statue..."
+        },
+        {
+          "numero": 4,
+          "titre": "Détourne un jeu connu",
+          "description": "Prends un jeu classique et change 1 règle. 'Épervier' devient 'Épervier à cloche-pied'.",
+          "conseil": "Les enfants adorent les variantes. Ça renouvelle les jeux sans avoir à tout réinventer."
+        },
+        {
+          "numero": 5,
+          "titre": "Lance-toi avec assurance",
+          "description": "Même si tu improvises, JAMAIS les enfants ne doivent le sentir. Tu es sûr de toi !",
+          "conseil": "Ton attitude = leur adhésion. Si tu doutes, ils doutent. Si tu es enthousiaste, ils le sont aussi !"
+        }
+      ],
+      "exemple": {
+        "situation": "Pluie soudaine, retour à l'intérieur, 20 enfants CE1-CE2, 30 minutes à tuer",
+        "materiel_dispo": "Une salle avec des chaises, des stylos, du papier",
+        "improvisation": "→ 'Dessinez c'est gagné' par équipes. 1 enfant dessine, les autres devinent. Pas de plateau de jeu ? On note les points au tableau. Succès garanti !",
+        "pourquoi_ca_marche": "Matériel dispo, jeu connu des enfants, mix calme/dynamique, esprit d'équipe."
+      },
+      "erreurs_frequentes": [
+        "Paniquer et montrer son stress aux enfants",
+        "Proposer une activité inadaptée au lieu/temps/matériel",
+        "Se lancer dans un jeu dont on ne connaît pas bien les règles",
+        "Ne pas avoir de 'filet de sécurité' (3-4 jeux de secours en tête)"
+      ]
+    },
+    "ressources": [
+      "Liste : 20 jeux sans matériel",
+      "Vidéo : Improvisation d'activité en conditions réelles",
+      "Kit de survie de l'animateur : jeux de poche"
+    ]
+  },
+  {
+    "id": "tuto-005",
+    "titre": "Utiliser la méthode PSAADRAFRA pour structurer une activité",
+    "categorie": "methodologie",
+    "duree": "25 min",
+    "niveau": "débutant",
+    "objectif": "Comprendre et appliquer la méthode PSAADRAFRA pour concevoir des activités structurées et efficaces",
+    "prerequis": "Aucun",
+    "contenu": {
+      "introduction": "PSAADRAFRA, c'est l'outil de conception d'activités le plus complet pour les animateurs. Chaque lettre correspond à une étape clé. Une fois maîtrisée, cette méthode te permet de créer des activités solides et réfléchies.",
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "P - Présentation",
+          "description": "Décris ton activité en 2-3 phrases : de quoi s'agit-il, quel est le principe général ?",
+          "conseil": "Imagine que tu dois 'vendre' ton activité à un collègue en 30 secondes."
+        },
+        {
+          "numero": 2,
+          "titre": "S - Sujet de l'activité",
+          "description": "Quel est l'objectif principal, le thème central ? Qu'est-ce que les enfants vont apprendre ou vivre ?",
+          "conseil": "C'est le 'pourquoi' de l'activité. Exemple : développer la coopération, découvrir les émotions..."
+        },
+        {
+          "numero": 3,
+          "titre": "A - Âge",
+          "description": "Pour quels niveaux est adaptée l'activité ? Comment l'adapter selon l'âge (PS vs CM2) ?",
+          "conseil": "Donne des variantes concrètes par tranche d'âge. Ça rend ton activité réutilisable !"
+        },
+        {
+          "numero": 4,
+          "titre": "A - Appropriation",
+          "description": "Comment les enfants vont-ils s'approprier l'activité ? Échauffement, mise en situation, discussion préalable ?",
+          "conseil": "Cette phase prépare les enfants. Exemple : montrer le matériel, expliquer le contexte..."
+        },
+        {
+          "numero": 5,
+          "titre": "D - Déroulement",
+          "description": "Décris étape par étape le déroulé de l'activité avec les durées approximatives.",
+          "conseil": "Sois précis : intro (5min), phase de jeu (20min), conclusion (10min)."
+        },
+        {
+          "numero": 6,
+          "titre": "R - Rangement",
+          "description": "Comment organiser le rangement du matériel et de l'espace ?",
+          "conseil": "Intègre le rangement dans l'activité (ex : jeu de rapidité pour ranger). Gagne du temps !"
+        },
+        {
+          "numero": 7,
+          "titre": "A - Analyse",
+          "description": "Qu'est-ce que tu observes pendant et après l'activité ? Quels enfants ont réussi/eu des difficultés ?",
+          "conseil": "Prends des notes mentales. Ça t'aide à adapter les prochaines fois."
+        },
+        {
+          "numero": 8,
+          "titre": "F - Feedback",
+          "description": "Recueille l'avis des enfants : qu'ont-ils aimé ? Qu'est-ce qui était difficile ?",
+          "conseil": "Un simple tour de table rapide : 'Levez la main si vous avez aimé'. Ça compte !"
+        },
+        {
+          "numero": 9,
+          "titre": "R - Réactivation",
+          "description": "Comment prolonger l'activité ? Quelle activité faire ensuite pour réutiliser les acquis ?",
+          "conseil": "Exemple : après un jeu sur les émotions, faire un atelier dessin d'émotions."
+        },
+        {
+          "numero": 10,
+          "titre": "A - Amélioration",
+          "description": "Qu'est-ce que tu changerais pour la prochaine fois ? Qu'est-ce qui n'a pas fonctionné ?",
+          "conseil": "Note tes idées tout de suite après l'activité, tant que c'est frais."
+        }
+      ],
+      "exemple": {
+        "activite": "Relais sportif",
+        "psaadrafra_applique": {
+          "P": "Un relais où les enfants courent, slaloment et transportent un objet.",
+          "S": "Développer la motricité et l'esprit d'équipe",
+          "A": "CE1-CE2 : parcours simple. CM1-CM2 : parcours complexe avec obstacles.",
+          "A2": "Montrer le parcours, faire une démo avec 2 enfants.",
+          "D": "1) Échauffement (5min) 2) Explication (5min) 3) Relais (25min) 4) Podium (5min)",
+          "R": "Ramasser les plots par équipe, le dernier plot ramassé = équipe gagnante bonus.",
+          "A3": "Observer les enfants moins sportifs, les encourager spécifiquement.",
+          "F": "Tour de table : 'Qu'avez-vous trouvé difficile ?'",
+          "R2": "Faire un relais créatif la semaine prochaine (avec déguisement).",
+          "A4": "Réduire le nombre d'obstacles, certains enfants ont trouvé ça trop dur."
+        }
+      },
+      "erreurs_frequentes": [
+        "Sauter des étapes (surtout R-A-F-R-A qu'on oublie souvent)",
+        "Rester trop vague dans le Déroulement",
+        "Ne pas adapter selon l'Âge (activité générique = moins efficace)",
+        "Oublier l'Amélioration (tu refais les mêmes erreurs la fois suivante)"
+      ]
+    },
+    "ressources": [
+      "Fiche vierge PSAADRAFRA à imprimer",
+      "Exemples de 10 activités complètes en PSAADRAFRA",
+      "Vidéo : Créer une activité de A à Z avec la méthode"
+    ]
+  }
+]

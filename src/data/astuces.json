@@ -1,0 +1,152 @@
+[
+  {
+    "id": "astuce-001",
+    "titre": "Gérer un groupe agité : la technique du 'volume sonore'",
+    "categorie": "gestion-groupe",
+    "contexte": "Quand le groupe devient bruyant et que tu as du mal à te faire entendre",
+    "niveaux": ["PS", "MS", "GS", "CP", "CE1", "CE2", "CM1", "CM2"],
+    "conseils": [
+      "Montre ta main avec les doigts levés (5 = très bruyant)",
+      "Descends progressivement les doigts en baissant toi-même le volume de ta voix",
+      "Quand tu arrives à 1 doigt, les enfants doivent chuchoter",
+      "À 0 (poing fermé), c'est le silence complet",
+      "Récompense le groupe qui fait le silence le plus vite"
+    ],
+    "pourquoi": "Technique visuelle qui fonctionne même dans le bruit. Les enfants adorent le défi et ça évite de crier."
+  },
+  {
+    "id": "astuce-002",
+    "titre": "Transition rapide : le 'Freeze Dance'",
+    "categorie": "transitions",
+    "contexte": "Pour passer d'une activité à une autre sans perdre 10 minutes",
+    "niveaux": ["PS", "MS", "GS", "CP", "CE1"],
+    "conseils": [
+      "Lance une musique entraînante (30 secondes max)",
+      "Les enfants dansent pendant le rangement",
+      "Quand la musique s'arrête : freeze ! Tout le monde se fige",
+      "Vérifie rapidement que le rangement est bien fait",
+      "Relance la musique pour finir si besoin"
+    ],
+    "pourquoi": "Transforme le rangement en jeu. Les enfants rangent plus vite et dans la bonne humeur."
+  },
+  {
+    "id": "astuce-003",
+    "titre": "Adapter aux différents âges : la règle des 3 niveaux",
+    "categorie": "adaptation",
+    "contexte": "Quand tu as un groupe multi-âges (PS-CM2) sur une même activité",
+    "niveaux": ["PS", "MS", "GS", "CP", "CE1", "CE2", "CM1", "CM2"],
+    "conseils": [
+      "Niveau 1 (Maternelle) : consigne simple, 1 seule règle, accompagnement fort",
+      "Niveau 2 (CP-CE1) : 2-3 règles, introduction de petits défis, semi-autonomie",
+      "Niveau 3 (CE2-CM2) : règles complètes, variantes complexes, autonomie totale",
+      "Permets aux enfants de choisir leur niveau de défi",
+      "Valorise les progrès, pas la performance"
+    ],
+    "pourquoi": "Chaque enfant peut participer à son niveau. Ça évite la frustration des petits et l'ennui des grands."
+  },
+  {
+    "id": "astuce-004",
+    "titre": "Capter l'attention : les signaux secrets",
+    "categorie": "gestion-groupe",
+    "contexte": "Quand tu as besoin que tout le monde t'écoute MAINTENANT",
+    "niveaux": ["MS", "GS", "CP", "CE1", "CE2", "CM1", "CM2"],
+    "conseils": [
+      "Établis un 'signal secret' avec le groupe (ex : 2 tapes dans les mains = silence)",
+      "Apprends le signal en début de séjour/période",
+      "Utilise-le systématiquement pour les moments importants",
+      "Variante : 'Si tu m'entends, tape dans tes mains' (effet de contagion)",
+      "Change le signal de temps en temps pour maintenir l'intérêt"
+    ],
+    "pourquoi": "Crée un code commun et ludique. Beaucoup plus efficace que de crier 'SILENCE !'."
+  },
+  {
+    "id": "astuce-005",
+    "titre": "Gérer les conflits : la technique du 'banc de la paix'",
+    "categorie": "conflits",
+    "contexte": "Quand deux enfants se disputent pendant une activité",
+    "niveaux": ["GS", "CP", "CE1", "CE2", "CM1", "CM2"],
+    "conseils": [
+      "Désigne un espace 'banc de la paix' (banc, tapis, zone calme)",
+      "Les deux enfants s'y assoient ensemble",
+      "Chacun explique sa version (sans interruption)",
+      "Ils doivent trouver une solution ensemble avant de revenir au jeu",
+      "L'animateur supervise mais laisse les enfants gérer"
+    ],
+    "pourquoi": "Responsabilise les enfants dans la résolution de conflits. Développe l'empathie et la communication."
+  },
+  {
+    "id": "astuce-006",
+    "titre": "Anticiper la fatigue : lire les signaux du groupe",
+    "categorie": "observation",
+    "contexte": "Pour adapter ton programme en temps réel selon l'énergie du groupe",
+    "niveaux": ["PS", "MS", "GS", "CP", "CE1", "CE2", "CM1", "CM2"],
+    "conseils": [
+      "Groupe agité, bruyant → besoin de se défouler (activité sportive courte)",
+      "Groupe apathique, bâillements → besoin de calme (lecture, dessin)",
+      "Tensions, disputes fréquentes → besoin de recentrage (jeu coopératif)",
+      "Attention qui décroche → varier les activités (rythme trop lent ou trop rapide)",
+      "Toujours avoir un 'plan B' et un 'plan C' prêts"
+    ],
+    "pourquoi": "Un animateur qui observe évite les crises. Mieux vaut changer d'activité que de forcer un programme inadapté."
+  },
+  {
+    "id": "astuce-007",
+    "titre": "Expliquer une règle de jeu : la méthode DEMO",
+    "categorie": "explication",
+    "contexte": "Quand tu dois expliquer un nouveau jeu sans perdre l'attention",
+    "niveaux": ["PS", "MS", "GS", "CP", "CE1", "CE2", "CM1", "CM2"],
+    "conseils": [
+      "D : Dire la règle en 1 phrase courte et claire",
+      "E : Exemple concret avec 2-3 enfants volontaires",
+      "M : Montrer toi-même en jouant le rôle",
+      "O : Ouvrir aux questions rapides (max 2 minutes)",
+      "Lancer le jeu ! Les enfants comprennent mieux en faisant qu'en écoutant"
+    ],
+    "pourquoi": "Les longues explications perdent l'attention. La démo visuelle est 10 fois plus efficace."
+  },
+  {
+    "id": "astuce-008",
+    "titre": "Matériel limité : le système de rotation",
+    "categorie": "organisation",
+    "contexte": "Quand tu as peu de matériel pour beaucoup d'enfants",
+    "niveaux": ["PS", "MS", "GS", "CP", "CE1", "CE2", "CM1", "CM2"],
+    "conseils": [
+      "Crée 3-4 ateliers différents avec le matériel disponible",
+      "Fais des petits groupes qui tournent toutes les 10-15 minutes",
+      "Utilise un timer visible (sablier, minuteur) pour les rotations",
+      "Chaque enfant passe partout à la fin de la séance",
+      "Atelier sans matériel possible : jeu de mime, conte, chant"
+    ],
+    "pourquoi": "Tout le monde participe, personne ne s'ennuie à attendre. Le temps passe plus vite."
+  },
+  {
+    "id": "astuce-009",
+    "titre": "Valoriser TOUS les enfants : les rôles tournants",
+    "categorie": "inclusion",
+    "contexte": "Pour que chaque enfant se sente important et écouté",
+    "niveaux": ["GS", "CP", "CE1", "CE2", "CM1", "CM2"],
+    "conseils": [
+      "Chef du jour : aide l'animateur, donne le signal de rangement",
+      "Responsable matériel : distribue et récupère le matériel",
+      "Gardien du temps : prévient quand il reste 5 minutes",
+      "Capitaine d'équipe : encourage ses coéquipiers",
+      "Fait tourner les rôles chaque jour pour que chacun ait sa chance"
+    ],
+    "pourquoi": "Les enfants discrets ont leur moment de visibilité. Développe le sens des responsabilités."
+  },
+  {
+    "id": "astuce-010",
+    "titre": "Retour au calme express : la minute de silence guidé",
+    "categorie": "retour-calme",
+    "contexte": "Après une activité intense, besoin de calmer le groupe rapidement",
+    "niveaux": ["MS", "GS", "CP", "CE1", "CE2", "CM1", "CM2"],
+    "conseils": [
+      "Tout le monde s'assoit en cercle ou allongé",
+      "Voix douce : 'Fermez les yeux, respirez calmement'",
+      "Guide avec des images : 'Imaginez que vous êtes un nuage léger...'",
+      "Fais durer 1-2 minutes maximum (pas plus, sinon ils s'agitent)",
+      "Termine par un signal doux : 'À 3, on ouvre les yeux doucement'"
+    ],
+    "pourquoi": "Abaisse le niveau d'excitation en quelques minutes. Prépare le groupe à écouter la suite du programme."
+  }
+]
