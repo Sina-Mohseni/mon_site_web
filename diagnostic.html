@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnostic Anim'Connect</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1 { color: #dc2626; }
+        h2 { color: #0ea5e9; }
+        .success { color: #16a34a; font-weight: bold; }
+        .error { color: #dc2626; font-weight: bold; }
+        button {
+            background: #0ea5e9;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover { background: #0284c7; }
+        #result { margin-top: 20px; padding: 15px; background: #f0f9ff; border-radius: 5px; }
+        pre { background: #1f2937; color: #fff; padding: 15px; border-radius: 5px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🔧 Diagnostic Anim'Connect</h1>
+        <p>Cette page teste si tout fonctionne correctement.</p>
+    </div>
+
+    <div class="card">
+        <h2>1. Test JavaScript</h2>
+        <p id="js-test" class="error">❌ JavaScript ne fonctionne pas</p>
+        <script>
+            document.getElementById('js-test').innerHTML = '<span class="success">✅ JavaScript fonctionne</span>';
+        </script>
+    </div>
+
+    <div class="card">
+        <h2>2. Test LocalStorage</h2>
+        <button onclick="testLocalStorage()">Tester LocalStorage</button>
+        <div id="ls-result"></div>
+    </div>
+
+    <div class="card">
+        <h2>3. Test Serveur Vite</h2>
+        <button onclick="testServer()">Tester http://localhost:3000</button>
+        <div id="server-result"></div>
+    </div>
+
+    <div class="card">
+        <h2>4. Informations navigateur</h2>
+        <pre id="browser-info"></pre>
+    </div>
+
+    <div class="card">
+        <h2>5. Instructions</h2>
+        <ol>
+            <li>Si tous les tests sont verts ✅, le site devrait fonctionner</li>
+            <li>Ouvrez <strong>http://localhost:3000</strong> dans votre navigateur</li>
+            <li>Si vous voyez encore une page blanche :
+                <ul>
+                    <li>Appuyez sur <strong>F12</strong> pour ouvrir la console</li>
+                    <li>Cherchez des messages en rouge</li>
+                    <li>Faites <strong>Ctrl + Shift + R</strong> pour recharger sans cache</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <script>
+        // Test localStorage
+        function testLocalStorage() {
+            const result = document.getElementById('ls-result');
+            try {
+                localStorage.setItem('test', 'ok');
+                const val = localStorage.getItem('test');
+                localStorage.removeItem('test');
+                
+                if (val === 'ok') {
+                    result.innerHTML = '<p class="success">✅ LocalStorage fonctionne</p>';
+                } else {
+                    result.innerHTML = '<p class="error">❌ LocalStorage ne fonctionne pas correctement</p>';
+                }
+            } catch (e) {
+                result.innerHTML = '<p class="error">❌ Erreur LocalStorage : ' + e.message + '</p>';
+            }
+        }
+
+        // Test serveur
+        function testServer() {
+            const result = document.getElementById('server-result');
+            result.innerHTML = '<p>⏳ Test en cours...</p>';
+            
+            fetch('http://localhost:3000')
+                .then(response => {
+                    if (response.ok) {
+                        result.innerHTML = '<p class="success">✅ Le serveur répond sur http://localhost:3000</p>';
+                    } else {
+                        result.innerHTML = '<p class="error">❌ Le serveur répond avec code ' + response.status + '</p>';
+                    }
+                })
+                .catch(error => {
+                    result.innerHTML = '<p class="error">❌ Impossible de contacter le serveur<br>' + error.message + '<br><br><strong>Solution :</strong> Assurez-vous que <code>npm run dev</code> est lancé</p>';
+                });
+        }
+
+        // Info navigateur
+        document.getElementById('browser-info').textContent = 
+            'Navigateur: ' + navigator.userAgent + '\n' +
+            'Langue: ' + navigator.language + '\n' +
+            'Cookies activés: ' + navigator.cookieEnabled + '\n' +
+            'Résolution: ' + window.screen.width + 'x' + window.screen.height;
+    </script>
+</body>
+</html>
